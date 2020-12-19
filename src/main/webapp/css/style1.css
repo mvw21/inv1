@@ -1,0 +1,30 @@
+body {
+    background-image: url('https://million-wallpapers.com/wallpapers/1/62/15290679288847817209/delicious-food-drinks-food-fruits-wallpaper-pictures.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+}
+
+body:after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 100vh;
+    height: 100vw;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.bg-text {
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
